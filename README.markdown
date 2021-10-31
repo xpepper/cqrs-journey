@@ -44,9 +44,9 @@ We would love to hear your thoughts, be it comments, suggestions, ideas or anyth
 
 There are three project repositories:
 
-1.  Source code repository:  [https://github.com/mspnp/cqrs-journey-code](https://github.com/mspnp/cqrs-journey-code)
-2.	Document repository: [https://github.com/mspnp/cqrs-journey-doc](https://github.com/mspnp/cqrs-journey-doc)
-3.	Wiki: [https://github.com/mspnp/cqrs-journey-wiki](https://github.com/mspnp/cqrs-journey-wiki)
+1.  Source code repository:  [https://github.com/microsoftarchive/cqrs-journey](https://github.com/microsoftarchive/cqrs-journey)
+2.  Document repository: [https://github.com/microsoftarchive/cqrs-journey](https://github.com/microsoftarchive/cqrs-journey)
+3.  Wiki: [https://github.com/microsoftarchive/cqrs-journey/wiki](https://github.com/microsoftarchive/cqrs-journey/wiki)
 
 We are also hosting our project web site on GitHub  - [http://cqrsjourney.github.com](http://cqrsjourney.github.com)
 
@@ -64,8 +64,8 @@ In order to obtain the source code you can either download it as a zip file from
 
 Follow these steps to download the source code in a zip file:
 
-1.	Go to [https://github.com/mspnp/cqrs-journey-code](https://github.com/mspnp/cqrs-journey-code)
-2.	Click on the ZIP button right below the project description.
+1.  Go to [https://github.com/microsoftarchive/cqrs-journey](https://github.com/microsoftarchive/cqrs-journey)
+2.  Click on the ZIP button right below the project description.
 
 To clone the source repository using Git, see instructions from the [Checkout the latest code](#checkoutlatest) section.
 
@@ -82,13 +82,13 @@ Issues and feature requests are submitted through the project's Issues section o
 * Make sure that you post the issue to the correct repository: either the **cqrs-journey-code** repository for code issues or **cqrs-journey-doc** repository for documentation issues.
 * Make sure the issue is not already reported by searching through the list of issues. 
 * Provide detailed description of the issue including the following information: 
-	+ The feature the issue appears in.
-	+ Under what circumstances the issue appears (repro steps).
-	+ Relevant environmental/contextual information.
-	+ The desired behavior.
-	+ The actual behavior (what is breaking).
-	+ The impact (such as loss or corruption of data, compromising security, disruption of service, etc.)
-	+ Any code, screenshots, configuration files that will be helpful to reproduce the issue.
+  + The feature the issue appears in.
+  + Under what circumstances the issue appears (repro steps).
+  + Relevant environmental/contextual information.
+  + The desired behavior.
+  + The actual behavior (what is breaking).
+  + The impact (such as loss or corruption of data, compromising security, disruption of service, etc.)
+  + Any code, screenshots, configuration files that will be helpful to reproduce the issue.
 
 The core team regularly reviews issues and updates those with additional information. Sometimes the core team may have questions about particular issue that might need clarifications, so please be ready to provide additional information.  
 
@@ -111,14 +111,14 @@ In order to obtain the source code you need to become familiar with Git (see [ht
 
 You can obtain the source code from GitHub by following the following steps on your local machine:
 
-1.	Go to https://github.com/mspnp/cqrs-journey-code
-2.	Select the Fork button and choose your own GitHub account as target 
-3.	Clone the repository on your local machine with the following Git command  
-`git clone git@github.com:[USERNAME]/cqrs-journey-code`
-4.	Add a remote to your local repository using the following Git commands  
+1.  Go to https://github.com/microsoftarchive/cqrs-journey
+2.  Select the Fork button and choose your own GitHub account as target 
+3.  Clone the repository on your local machine with the following Git command  
+`git clone git@github.com:[USERNAME]/cqrs-journey`
+4.  Add a remote to your local repository using the following Git commands  
 `cd cqrs-journey-code`  
-`git remote add upstream git@github.com:mspnp/cqrs-journey-code`
-5.	Update your local repository with the changes from the remote repository by using the following Git commands  
+`git remote add upstream git@github.com:https:microsoftarchive/cqrs-journey`
+5.  Update your local repository with the changes from the remote repository by using the following Git commands  
 `git fetch upstream/dev`  
 `git merge upstream/dev`
 
@@ -128,14 +128,14 @@ We are using the [Fork+Pull Model](http://help.github.com/send-pull-requests/) o
 
 You make modifications of the code and commit them in your local Git repository. Once you are done with your implementation follow the steps below:
 
-1.	Change the working branch to dev with the following command  
+1.  Change the working branch to dev with the following command  
 `git checkout dev `
-2.	Submit the changes to your own fork in GitHub by using the following command  
+2.  Submit the changes to your own fork in GitHub by using the following command  
 `git push`
-3.	In GitHub create new pull request by clicking on the Pull Request button  
-4.	In the pull request select your fork as the head and mspnp/cqrs-journey-code as base for the request 
-5.	Write detailed message describing the changes in the pull request 
-6.	Submit the pull request for consideration by the core team 
+3.  In GitHub create new pull request by clicking on the Pull Request button  
+4.  In the pull request select your fork as the head and mspnp/cqrs-journey-code as base for the request 
+5.  Write detailed message describing the changes in the pull request 
+6.  Submit the pull request for consideration by the core team 
 
 **Note:** It's a good idea to create a branch before submitting a pull request, just in case there are improvement suggestions to the submitted contribution that need to be incorporated before it's accepted. That way, the pull request points to the entire branch and changes to it can be incorporated using the same pull request sent initially (which will hold discussions and comments about the improvements, etc.).
 
@@ -176,14 +176,14 @@ In order to obtain the latest docs you need to become familiar with Git (see [ht
 
 You can obtain the docs from GitHub by following the following steps on your local machine:
 
-1.	Go to https://github.com/mspnp/cqrs-journey-doc
-2.	Select the Fork button   and choose your own GitHub account as target 
-3.	Clone the repository on your local machine with the following Git command  
+1.  Go to https://github.com/mspnp/cqrs-journey-doc
+2.  Select the Fork button   and choose your own GitHub account as target 
+3.  Clone the repository on your local machine with the following Git command  
 `git clone git@github.com:[USERNAME]/cqrs-journey-doc`
-4.	Add remote to your local repository using the following Git commands  
+4.  Add remote to your local repository using the following Git commands  
 `cd cqrs-journey-doc`  
 `git remote add upstream git@github.com:mspnp/cqrs-journey-doc`
-5.	Update your local repository with the changes from the remote repository by using the following Git commands  
+5.  Update your local repository with the changes from the remote repository by using the following Git commands  
 `git fetch upstream/dev`  
 `git merge upstream/dev`
 
@@ -193,14 +193,14 @@ We are using the [Fork+Pull](http://help.github.com/send-pull-requests/) Model o
 
 You make modifications of the docs in your local Git repository. Once you are done with your changes follow the steps below:
 
-1.	Change the working branch to `dev` with the following command  
+1.  Change the working branch to `dev` with the following command  
 `git checkout dev `
-2.	Submit the changes to your own fork in GitHub by using the following command  
+2.  Submit the changes to your own fork in GitHub by using the following command  
 `git push`
-3.	In GitHub create new pull request by clicking on the Pull Request button  
-4.	In the pull request select your fork as source and mspnp/cqrs-journey-doc as destination for the request 
-5.	Write detailed message describing the changes in the pull request 
-6.	Submit the pull request for consideration by the core team 
+3.  In GitHub create new pull request by clicking on the Pull Request button  
+4.  In the pull request select your fork as source and mspnp/cqrs-journey-doc as destination for the request 
+5.  Write detailed message describing the changes in the pull request 
+6.  Submit the pull request for consideration by the core team 
 
 **Note:** All changes and pull request should be done in the `dev` branch. Changes will be integrated in the `master` branch by the core team.
 
